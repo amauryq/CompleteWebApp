@@ -9,12 +9,12 @@ function iniciar(route, handle) {
 
     request.setEncoding("utf8");
 
-    request.addListener("data", function(trozoPosteado) {
+    request.addListener("data", function (trozoPosteado) {
       dataPosteada += trozoPosteado;
       console.log("Recibido trozo POST '" + trozoPosteado + "'.");
     });
 
-    request.addListener("end", function() {
+    request.addListener("end", function () {
       route(handle, pathname, response, dataPosteada);
     });
 

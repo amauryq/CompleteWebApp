@@ -4,7 +4,7 @@ function route(handle, pathname, response, postData) {
     handle[pathname](response, postData);
   } else {
     console.log("No se ha encontrado manipulador para " + pathname);
-    response.writeHead(404, {"Content-Type": "text/html"});
+    response.writeHead(404, { "Content-Type": "text/html" });
     response.write("404 No encontrado");
     response.end();
   }

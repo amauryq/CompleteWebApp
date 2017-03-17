@@ -1,0 +1,22 @@
+{
+  "name": "complete-web-app",
+  "version": "1.0.0",
+  "description": "Complete NodeJs Web App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amauryq/CompleteWebApp.git"
+  },
+  "author": "Amaury Quintero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amauryq/CompleteWebApp/issues"
+  },
+  "homepage": "https://github.com/amauryq/CompleteWebApp#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
